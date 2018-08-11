@@ -1,7 +1,7 @@
 # subtitles_generator
 Automatically create subtitles for any video using google speech to text cloud api.
 ## Usage
-  python3 generator.py <video file>
+  python3 generator.py video_file
 ## dependencies
   Speech Recognition</br>
   google-cloud-api</br>

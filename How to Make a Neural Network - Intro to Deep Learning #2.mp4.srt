@@ -1,0 +1,442 @@
+0
+00:00:00 --> 00:00:05
+how do we learn how the times may change some Concepts stay the same 
+
+1
+00:00:05 --> 00:00:10
+changing information Outlast the body it's stored in our brain but can be passed down 
+
+2
+00:00:10 --> 00:00:15
+from generation to generation are brain is capable of synthesizing 
+
+3
+00:00:15 --> 00:00:20
+what we call our five senses and from them creating a hierarchy of Concepts if we're 
+
+4
+00:00:20 --> 00:00:25
+okay we can one attack while being supervised by a teacher directly while interacting with iron 
+
+5
+00:00:25 --> 00:00:30
+and we can feel our surroundings see our obstacles and try to predict the next 
+
+6
+00:00:30 --> 00:00:35
+if we try it first and fail that's okay through the process of trial and error 
+
+7
+00:00:35 --> 00:00:40
+we can learn anything what is it that gives our brain to special capability 
+
+8
+00:00:40 --> 00:00:45
+Nelson nature everything we've ever experienced or felt all our thoughts and memories are very 
+
+9
+00:00:45 --> 00:00:50
+sense of self is produced by the brain at the molecular level are brain consists of a nest 
+
+10
+00:00:50 --> 00:00:55
+a hundred billion nerve cells called neurons each neuron has three jobs 
+
+11
+00:00:55 --> 00:01:00
+
+
+12
+00:01:00 --> 00:01:05
+whether or not the information should be passed on in the cell body or Soma and then get the sum of 
+
+13
+00:01:05 --> 00:01:10
+channels passes a certain threshold send this results in Signal called the action potential 
+
+14
+00:01:10 --> 00:01:15
+Ward's PA tax on to the next set of neurons 
+
+15
+00:01:15 --> 00:01:20
+neural network in Python the rules that govern the brain's give rise to intelligence 
+
+16
+00:01:20 --> 00:01:25
+it's the same album that invented modern language spaceflight Shia LaBeouf 
+
+17
+00:01:25 --> 00:01:30
+what makes us us it's what's allowed us to survive and thrive on 
+
+18
+00:01:30 --> 00:01:35
+but as far as we19
+00:01:35 --> 00:01:40
+existence there's the impending threat of climate change the possible 
+
+20
+00:01:40 --> 00:01:45
+biochemical Warfare an asteroid impact 
+
+21
+00:01:45 --> 00:01:50
+take our biological neural networks many generations to solve what if we could 
+
+22
+00:01:50 --> 00:01:55
+is power on artificial neural network and had it run on a non Buy 
+
+23
+00:01:55 --> 00:02:00
+magical substrate like Silicon we can give it more computing power and data and any 
+
+24
+00:02:00 --> 00:02:05
+give me would be capable of handling and have it solved problems 8014 
+
+25
+00:02:05 --> 00:02:10
+X Factor and we could alone in 1943 to early computer scientist 
+
+26
+00:02:10 --> 00:02:15
+McCulloch and Walter Pitts invented the first computational model of a neuron 
+
+27
+00:02:15 --> 00:02:20
+remodeled demonstrated a neuron that receive the binary inputs on them and if the Sun 
+
+28
+00:02:20 --> 00:02:25
+secret a certain threshold value output of one if not I'll put a zero it was a 
+
+29
+00:02:25 --> 00:02:30
+supermodel but in the early days of AI this was a big deal and got computer scientist talk 
+
+30
+00:02:30 --> 00:02:35
+how about the possibilities later a psychologist in Brink Road 
+
+31
+00:02:35 --> 00:02:40
+frustrated that include PetSmart 
+
+32
+00:02:40 --> 00:02:45
+
+
+33
+00:02:45 --> 00:02:50
+the word for a single layer feed-forward neural network 
+
+34
+00:02:50 --> 00:02:55
+cuz if they just closed in One Direction forward Incorporated 
+
+35
+00:02:55 --> 00:03:00
+of weights on the inputs to give it some training set of input output examples 
+
+36
+00:03:00 --> 00:03:05
+you should learn a function from it by increasing or decreasing the weights continuously 
+
+37
+00:03:05 --> 00:03:10
+which example 
+
+38
+00:03:10 --> 00:03:15
+to the input touch that after each iteration the output prediction gets more accurate 
+
+39
+00:03:15 --> 00:03:20
+understand this process training 
+
+40
+00:03:20 --> 00:03:25
+numpy as our dependency in our main function with first initial 
+
+41
+00:03:25 --> 00:03:30
+Network which will later to find as its own class then print out it's starting weights for our 
+
+42
+00:03:30 --> 00:03:35
+Prince one weekend we can now Define our dataset we've got four examples 
+
+43
+00:03:35 --> 00:03:40
+Campbell has three input values can one output value for all zeros 
+
+44
+00:03:40 --> 00:03:45
+function transposes The Matrix from horizontal to vertical 
+
+45
+00:03:45 --> 00:03:50
+will train a neural network on these values so that given a new list of ones and zeros 
+
+46
+00:03:50 --> 00:03:55
+predict whether or not the output unit 1 or 0 
+
+47
+00:03:55 --> 00:04:00
+this is considered a classification task in machine Learning Network 
+
+48
+00:04:00 --> 00:04:05
+using them as arguments to artrain function of the number 1049
+00:04:05 --> 00:04:10
+amount of times we like to iterate during training after it's done training will print out the 
+
+50
+00:04:10 --> 00:04:15
+wait so we can compare them and finally will predict the output given a new input 
+
+51
+00:04:15 --> 00:04:20
+our main function ready so let's not Define our neural network class when we initialize 
+
+52
+00:04:20 --> 00:04:25
+the first thing I want to do is see diff will initialize our way 
+
+53
+00:04:25 --> 00:04:30
+in a second and feeding them make sure that it generates the same numbers every time 
+
+54
+00:04:30 --> 00:04:35
+this is useful for debugging later on random ways to A3 
+
+55
+00:04:35 --> 00:04:40
+1 Matrix with values in the range of -1 to 1 with a mean of 0 
+
+56
+00:04:40 --> 00:04:45
+are single neuron has three input connections and one output connection next right 
+
+57
+00:04:45 --> 00:04:50
+activation function which it in our case will be a sigmoid it describes an s-shaped 
+
+58
+00:04:50 --> 00:04:55
+we passed away did some of the inputs through it and it will convert them to a probability 
+
+59
+00:04:55 --> 00:05:00
+between 0 and 1 this probability will help make our prediction 
+
+60
+00:05:00 --> 00:05:05
+
+
+61
+00:05:05 --> 00:05:10
+are neurons to get to wait at some of our inputs will compute the. Product of our inputs and 
+
+62
+00:05:10 --> 00:05:15
+weights this is how are weights govern the attention of how data flows in our neural-net 
+
+63
+00:05:15 --> 00:05:20
+function will return our prediction now we can write out art rainbow which is the real meat of Arco 
+
+64
+00:05:20 --> 00:05:25
+write a for Loop to enter a 1065
+00:05:25 --> 00:05:30
+function to pass the training set through the network and get the output value which is are for 
+
+66
+00:05:30 --> 00:05:35
+next calculate the error which is a difference between the desired output and are predicted 
+
+67
+00:05:35 --> 00:05:40
+what to minimize error as we train end up dating 
+
+68
+00:05:40 --> 00:05:45
+calculate the necessary adjustment by Computing the dot product 
+
+69
+00:05:45 --> 00:05:50
+and the error X the gradient of the sigmoid curve so less confident weights 
+
+70
+00:05:50 --> 00:05:55
+traffic more and inputs that are zero don't cause changes to the weights this process 
+
+71
+00:05:55 --> 00:06:00
+it's called gradient descent 
+
+72
+00:06:00 --> 00:06:05
+calculates the derivative of our sigmoid which gives us its gradient or slope 
+
+73
+00:06:05 --> 00:06:10
+Treasures how confident we are of the existing weight value and helps us update our prediction in 
+
+74
+00:06:10 --> 00:06:15
+right direction finally once we have our adjustment will update our weights with that value 
+
+75
+00:06:15 --> 00:06:20
+this process of propagating our error value back into our Network to adjust our weights 
+
+76
+00:06:20 --> 00:06:25
+is called backpropagation what's the name of this baby in terminal because the training site is so 
+
+77
+00:06:25 --> 00:06:30
+small took milliseconds to Trenton values updated themselves 
+
+78
+00:06:30 --> 00:06:35
+federations Emily said it a novel input it predicted that the output was very light 
+
+79
+00:06:35 --> 00:06:40
+we just made our first neural network from scratch anyways 
+
+80
+00:06:40 --> 00:06:45
+propagation 
+
+81
+00:06:45 --> 00:06:50
+navigate to update race update weight 
+
+82
+00:06:50 --> 00:06:55
+navigate to update wait wait wait 
+
+83
+00:06:55 --> 00:07:00
+Clinton knows map to ozan ones inputs go and add weights get some 
+
+84
+00:07:00 --> 00:07:05
+that's that shitt to my sigmoid function get that heroin is real 
+
+85
+00:07:05 --> 00:07:10
+that's what I use gradient descent and gives Direction and it doesn't 
+
+86
+00:07:10 --> 00:07:15
+update weight and repeat 10000 * outputs or less 
+
+87
+00:07:15 --> 00:07:20
+I'll be doing just fine so as dope as rosenblatt idea was in the decades following 
+
+88
+00:07:20 --> 00:07:25
+give us any kind of noteworthy results only accomplished symbol 
+
+89
+00:07:25 --> 00:07:30
+what is the world 
+
+90
+00:07:30 --> 00:07:35
+is today we've seen an explosion in data and computing power 
+
+91
+00:07:35 --> 00:07:40
+churches funded by the Canadian government held back to their belief in the power of neural networks 
+
+92
+00:07:40 --> 00:07:45
+
+
+93
+00:07:45 --> 00:07:50
+or too many layers deep give it a huge dataset and lots of computing power 
+
+94
+00:07:50 --> 00:07:55
+they discovered that you could outperform humans intact that we thought only we could do 
+
+95
+00:07:55 --> 00:08:00
+this is profound are biological neural network is carbon based 
+
+96
+00:08:00 --> 00:08:05
+chemicals like I see your colon glutamate and serotonin as signals 
+
+97
+00:08:05 --> 00:08:10
+social network doesn't even exist in physical space it's an abstract concept 
+
+98
+00:08:10 --> 00:08:15
+programmatically-created and is represented on Silicon transistors 
+
+99
+00:08:15 --> 00:08:20
+difference in mediums they both develop a very similar mechanism for processing information 
+
+100
+00:08:20 --> 00:08:25
+the results show that perhaps there's a lot of intelligence and coded into our universe 
+
+101
+00:08:25 --> 00:08:30
+ever closer to finding it so to break it down at work is a bylaw 
+
+102
+00:08:30 --> 00:08:35
+inspired algorithm that to identify patterns in data 
+
+103
+00:08:35 --> 00:08:40
+what is a popular technique to train a neural network updating weights 
+
+104
+00:08:40 --> 00:08:45
+descent retrain a mini layered a lot of data 
+
+105
+00:08:45 --> 00:08:50
+lots of computing power we call this process deep learning 
+
+106
+00:08:50 --> 00:08:55
+is Pluto made a really slick IPython notebook 2 demo 
+
+107
+00:08:55 --> 00:09:00
+3D regression as well on a climate change data set other week 
+
+108
+00:09:00 --> 00:09:05
+runner-up is a man who can play the bonus with great results the challenge 
+
+109
+00:09:05 --> 00:09:10
+it's a great I'm not one not two but three layer feed forward neural network 
+
+110
+00:09:10 --> 00:09:15
+just jump I post a comment in the winter in one week 
+
+111
+00:09:15 --> 00:09:20
+subscribe and for now I got to update my weight so thanks for what 
+
